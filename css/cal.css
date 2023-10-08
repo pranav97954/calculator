@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(8, 8, 8);
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+input[type="number"],
+select,
+button {
+    background-color: rgb(251, 249, 249);
+    color: rgb(239, 122, 122);
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+
+input[type="number"]::placeholder {
+    color: rgb(114, 240, 236);
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(106, 93, 249);
+}
+
+#crc{
+   color: brown;
+   text-align: center;
+   display: flex;
+}
