@@ -28,12 +28,10 @@ button {
 input[type="number"]::placeholder {
     color: rgb(114, 240, 236);
 }
-
 button {
     cursor: pointer;
     background-color: rgb(106, 93, 249);
 }
-
 #crc{
    color: brown;
    text-align: center;
